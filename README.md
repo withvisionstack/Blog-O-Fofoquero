@@ -38,7 +38,8 @@ Este é um projeto de blog estático desenvolvido com PHP, sem banco de dados. T
 │
 ├── data/
 │   ├── posts.php       # Array de posts mockados
-│   └── conteudos.php   # Conteúdo completo de cada post
+│   ├── conteudos.php   # Conteúdo completo de cada post
+    └── categorias.php  # Array das categorias
 │
 ├── services/
 │   └── unplash.php     # Integração com a API do Unsplash
