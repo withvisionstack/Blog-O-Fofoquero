@@ -1,6 +1,6 @@
 # 📰 Blog PHP — Mock Data
 
-![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?style=flat&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=flat&logo=php&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-Estilização-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Unsplash](https://img.shields.io/badge/Unsplash-API-000000?style=flat&logo=unsplash&logoColor=white)
@@ -57,7 +57,8 @@ Este é um projeto de blog estático desenvolvido com PHP, sem banco de dados. T
 │
 ├── data/
 │   ├── posts.php       # Array de posts mockados
-│   └── conteudos.php   # Conteúdo completo de cada post
+│   ├── conteudos.php   # Conteúdo completo de cada post
+    └── categorias.php  # Array com as categorias
 │
 ├── services/
 │   └── unplash.php     # Integração com a API do Unsplash
