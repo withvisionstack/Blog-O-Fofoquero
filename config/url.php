@@ -5,6 +5,7 @@ $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI'
 
 // API do Unsplash
 define('UNSPLASH_BASE_URL', 'https://api.unsplash.com/');
-define('UNSPLASH_ACCESS_KEY', 'DI4hgskAFGspnVvvRwSO0SwpAFBdq8HbWfoQDpJIzs8');
+define('UNSPLASH_ACCESS_KEY', 'SUA CHAVE AQUI UNPLASH');
 // Caminho para cache local (opcional)
+
 define('CACHE_PATH', __DIR__ . '/../images/cache.json');
